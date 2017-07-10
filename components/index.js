@@ -1,5 +1,8 @@
+import markdown from 'vue-markdown'
 import Column from './Column'
 import Container from './Container'
+import HeaderSection from './HeaderSection'
+import FooterSection from './FooterSection'
 import Gravatar from './Gravatar'
 import Logo from './Logo'
 import ItemLink from './ItemLink'
@@ -9,8 +12,11 @@ import ToggleGif from './ToggleGif'
 import Widget from './Widget'
 
 export default {
+  markdown,
   Column,
   Container,
+  HeaderSection,
+  FooterSection,
   Gravatar,
   ItemLink,
   Logo,
