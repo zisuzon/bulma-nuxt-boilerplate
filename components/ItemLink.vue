@@ -20,14 +20,14 @@
 <script>
 import {
   resourceUrl
-} from '@/utils';
+} from '~/utils/index'
 
 export default {
   props: ['item'],
   methods: {
     resourceUrl
   }
-};
+}
 </script>
 
 <style lang="css">

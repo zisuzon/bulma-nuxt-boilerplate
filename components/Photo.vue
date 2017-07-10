@@ -20,7 +20,7 @@
 import {
   iconSlug,
   imageUrl
-} from '@/utils';
+} from '~/utils/index'
 
 export default {
   props: ['photo'],
@@ -28,7 +28,7 @@ export default {
     iconSlug,
     imageUrl
   }
-};
+}
 </script>
 
 <style lang="css">

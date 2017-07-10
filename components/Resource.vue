@@ -14,7 +14,7 @@
 import {
   imageUrl,
   resourceUrl
-} from '@/utils';
+} from '~/utils/index'
 
 export default {
   props: ['title', 'uri'],
@@ -27,7 +27,7 @@ export default {
     resourceUrl,
     imageUrl
   }
-};
+}
 </script>
 
 <style lang="css">
