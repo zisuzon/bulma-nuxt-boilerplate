@@ -47,8 +47,8 @@
 
 <script>
 import markdown from 'vue-markdown'
-import Photo from './Photo';
-import Resource from './Resource';
+import Photo from './Photo'
+import Resource from './Resource'
 
 export default {
   props: [
@@ -67,10 +67,10 @@ export default {
     'contentFirst'
   ],
   computed: {
-    credit() {
-      return 'credit';
+    credit () {
+      return 'credit'
     },
-    classNameSpace() {
+    classNameSpace () {
       return this.namespace ? this.namespace : 'generic'
     }
   },
@@ -81,7 +81,7 @@ export default {
     Resource,
     markdown
   }
-};
+}
 </script>
 
 <style lang="css">

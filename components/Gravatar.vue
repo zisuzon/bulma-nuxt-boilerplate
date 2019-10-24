@@ -12,23 +12,23 @@
 </template>
 
 <script>
-import gravatar from 'gravatar';
+import gravatar from 'gravatar'
 
 export default {
   props: ['email', 'src', 'title'],
   computed: {
-    imageSrc() {
+    imageSrc () {
       return this.gravatar.url || this.src
     }
   },
-  data() {
+  data () {
     return {
       gravatar: {
         url: false
       }
     }
   },
-  created() {
+  created () {
     this.gravatar.url = gravatar.url(this.email, {
       default: this.src
     })

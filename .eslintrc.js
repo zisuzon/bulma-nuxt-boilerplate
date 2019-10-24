@@ -12,10 +12,11 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
-    'space-before-function-paren': 0,
-    'comma-dangle': 0,
-    'no-useless-escape': 0,
-    'semi': 0,
+    // "no-unused-vars": 0
+    // "no-restricted-imports": ["error", {
+    //   "paths": ["lodash"],
+    //   "patterns": ["import/lodash/*"],
+    // }]
   },
   globals: {}
 }

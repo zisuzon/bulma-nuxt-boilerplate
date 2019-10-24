@@ -8,7 +8,7 @@
 
 export default {
   props: ['gif', 'png', 'name', 'immediate'],
-  data() {
+  data () {
     return {
       src: '',
       state: 'still'

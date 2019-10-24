@@ -19,7 +19,7 @@ export default {
     'namespace'
   ],
   computed: {
-    wrapperClass() {
+    wrapperClass () {
       return this.namespace ? this.namespace : 'generic'
     }
   }

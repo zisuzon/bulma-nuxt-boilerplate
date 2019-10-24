@@ -19,8 +19,8 @@ import {
 export default {
   props: ['title', 'uri'],
   computed: {
-    fileURI() {
-      return resourceUrl(this.uri);
+    fileURI () {
+      return resourceUrl(this.uri)
     }
   },
   methods: {
